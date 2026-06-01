@@ -1,0 +1,10 @@
+{
+  // Must match the existing Worker so deploys update the same project
+  // (and keep the nabu-ai.io custom domain attached).
+  "name": "bitter-poetry-aeac",
+  "compatibility_date": "2024-11-01",
+  // Serve the repo's static files (index.html) as the site.
+  "assets": {
+    "directory": "."
+  }
+}
